@@ -1,0 +1,22 @@
+﻿Início 
+
+
+Escreva "Digite seu peso em kg:"
+Leia peso do usuário
+Escreva "Digite sua altura em metros:"
+Leia a altura do usuário
+
+
+IMC = peso / (altura * altura)
+
+
+Se IMC < 18,5
+    Escreva "Abaixo do peso"
+Senão IMC ≥ 18,5 e < 25
+    Escreva "Peso normal"
+Senão IMC ≥ 25 e < 30
+    Escreva "Sobrepeso"
+Senão IMC ≥ 30 e < 40
+    Escreva "Obesidade"
+Senão IMC ≥ 40
+    Escreva "Obesidade grave"
